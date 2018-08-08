@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document - Surcharge css Agence*/
+
+.social-and-dates .wrapper .sosial .icons .sr-list li .sr-link .icon-linkedin {
+    background-image: url(/theme/immobilier_git_desktop/img/icons/icon-linkedin-yellow.svg);
+}
+.social-and-dates .wrapper .sosial .icons .sr-list li .sr-link .icon-linkedin:before {
+    content : ' ';
+}
