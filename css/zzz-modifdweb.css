@@ -1,0 +1,43 @@
+/*********************/
+/***COMPTE CLIENT ****/
+/*********************/
+
+
+.cap-icon-shopping_basket:before {
+    content: ""!important;
+    background-image: url(/theme/immobilier_git_desktop/img/icons/icon-bagcompte.svg);
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+    background-position: center;
+    width: 20px;
+    height: 19px;
+    display: inline-block;
+}
+#cxpmClientAccountWidget .widget-my-selection i.cap-icon-shopping_basket {
+    font-size: 20px;
+    margin-top: 18px;
+}
+#cxpmClientAccountWidget .widget-my-selection .widget-icon>span.number, #cxpm-connect-sso-dropdown .widget-my-selection .widget-icon>span.number {
+    color: #fff;
+    font-weight: 700;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 9px;
+    border-radius: 50%;
+    background-color: #df306c;
+    padding-left: 0;
+    position: absolute;
+    right: 3px;
+    bottom: 5px;
+    line-height: 16px;
+}
+
+#cxpmClientAccountWidget, #cxpm-connect-sso-dropdown {
+    float: right;
+    margin-right: 59px;
+    margin-top: 14px;
+}
+#cxpmClientAccountWidget .widget-icon, #cxpm-connect-sso-dropdown .widget-icon {
+    padding: 6px 8px;
+}
