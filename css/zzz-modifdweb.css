@@ -41,3 +41,13 @@
 #cxpmClientAccountWidget .widget-icon, #cxpm-connect-sso-dropdown .widget-icon {
     padding: 6px 8px;
 }
+/*Catalogue New*/
+
+#catalog-v2 .bgTint {
+    background-color: #fc0 !important;
+}
+
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {
+    background: #df306c !important;
+}
+
